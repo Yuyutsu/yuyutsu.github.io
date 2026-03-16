@@ -131,3 +131,6 @@ I enjoy working on **mobile apps that interact with the physical world** through
 ---
 
 ⭐ If you like my work, consider giving a star to the repositories.
+
+
+![snake gif](https://github.com/yuyutsu/yuyutsu/blob/output/github-contribution-grid-snake.svg)
