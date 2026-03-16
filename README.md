@@ -1,1 +1,1 @@
-# yuyutsu.github.io
+yuyutsu.github.io
