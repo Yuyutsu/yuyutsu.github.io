@@ -1,136 +1,73 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=200&section=header&text=Amol%20Chavan&fontSize=40&fontColor=ffffff"/>
-</p>
+# React + TypeScript + Vite
 
-# 👋 Hello, I'm Amol
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-**Senior Mobile Engineer | React Native | iOS | IoT**
+Currently, two official plugins are available:
 
-12+ years building production mobile systems used in **IoT, healthcare and real-time applications**.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-I focus on **mobile architecture, BLE communication systems, and cross-platform engineering.**
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-# ⚡ Engineering Philosophy
+## Expanding the ESLint configuration
 
-• Simple systems scale better than complex ones
-• Performance is a feature
-• Type safety saves production bugs
-• Mobile apps should behave like systems software
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
----
+```js
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
 
-# 🧠 Core Expertise
+      // Remove tseslint.configs.recommended and replace with this
+      tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      tseslint.configs.stylisticTypeChecked,
 
-### Mobile Engineering
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
 
-* Swift
-* Objective-C
-* React Native
-* ReactJS
-* TypeScript
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-### IoT & Hardware
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-* Bluetooth Low Energy
-* iBeacon
-* CoreBluetooth
-* CoreLocation
-* Geo-fencing
-
-### Backend
-
-* NodeJS
-* REST APIs
-* JSON RPC
-
-### Tooling
-
-* Firebase
-* Redux
-* CI/CD
-* CocoaPods
-* Git
-
----
-
-# 🚀 What I Build
-
-📦 Mobile frameworks
-📦 React Native libraries
-📦 IoT integrations
-📦 Developer tooling
-📦 Mobile performance tools
-
----
-
-# 📊 GitHub Analytics
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=yuyutsu&show_icons=true&theme=transparent&hide_border=true"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yuyutsu&layout=compact&hide_border=true"/>
-
-<img src="https://streak-stats.demolab.com/?user=yuyutsu&hide_border=true"/>
-
-</p>
-
----
-
-# 🔥 Contribution Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yuyutsu&theme=github-compact"/>
-</p>
-
----
-
-# 🛠 Featured Projects
-
-### 🚀 MarathiLipi
-
-JavaScript inspired programming language with Marathi syntax.
-
-### 📱 React Native Performance Insights
-
-Performance analysis tools for React Native apps.
-
-### 🔵 React Native BLE Toolkit
-
-BLE utilities for cross-platform IoT applications.
-
----
-
-
-# ✍️ Writing & Knowledge Sharing
-
-📚 Medium
-https://medium.com/@iamolchavan
-
-📦 npm Packages
-https://npmjs.com/~iamolchavan
-
----
-
-# 🌍 Connect
-
-LinkedIn
-https://www.linkedin.com/in/iamolchavan/
-
-GitHub
-https://github.com/yuyutsu
-
----
-
-# ⚡ Fun Fact
-
-I enjoy working on **mobile apps that interact with the physical world** through BLE and IoT devices.
-
----
-
-⭐ If you like my work, consider giving a star to the repositories.
-
-
-![snake gif](https://github.com/yuyutsu/yuyutsu/blob/output/github-contribution-grid-snake.svg)
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
