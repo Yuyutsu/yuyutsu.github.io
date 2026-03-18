@@ -25,33 +25,33 @@ const currentProjects = [
 
 export function CurrentlyBuilding() {
   return (
-    <section className="py-32 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-24 md:py-32 px-6">
+      <div className="max-w-5xl mx-auto">
         <FadeIn>
-          <span className="text-accent text-sm font-medium tracking-widest uppercase mb-4 block">
+          <span className="text-accent text-xs font-medium tracking-[0.2em] uppercase mb-4 block">
             Currently Building
           </span>
         </FadeIn>
         <FadeIn delay={0.1}>
-          <h2 className="text-3xl md:text-5xl font-bold text-text-primary tracking-tight mb-16 max-w-2xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-text-primary tracking-tight mb-14 max-w-xl">
             What&rsquo;s on my workbench
           </h2>
         </FadeIn>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-4">
           {currentProjects.map((project, i) => (
-            <FadeIn key={project.title} delay={0.1 + i * 0.1}>
-              <div className="group bg-surface-card border border-border-subtle rounded-2xl p-8 hover:border-border-glow transition-all duration-300 h-full">
-                <div className="flex items-center gap-2 mb-4">
-                  <span className="relative flex h-2 w-2">
-                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
-                    <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
+            <FadeIn key={project.title} delay={0.1 + i * 0.08}>
+              <div className="group bg-surface-card border border-border-subtle rounded-xl p-6 hover:border-border-glow transition-all duration-300 h-full">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="relative flex h-1.5 w-1.5">
+                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
+                    <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-emerald-400" />
                   </span>
-                  <span className="text-xs text-green-400 font-medium">
+                  <span className="text-[11px] text-emerald-400/80 font-medium">
                     {project.status}
                   </span>
                 </div>
-                <h3 className="text-lg font-semibold text-text-primary mb-2 group-hover:text-accent transition-colors">
+                <h3 className="text-base font-semibold text-text-primary mb-1.5 group-hover:text-accent transition-colors">
                   {project.title}
                 </h3>
                 <p className="text-sm text-text-secondary leading-relaxed">

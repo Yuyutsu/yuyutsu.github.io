@@ -5,12 +5,13 @@
   --font-mono: "SF Mono", "Fira Code", ui-monospace, Consolas, monospace;
   --color-surface: #09090b;
   --color-surface-elevated: #111114;
-  --color-surface-card: #18181b;
-  --color-border-subtle: rgba(255, 255, 255, 0.06);
-  --color-border-glow: rgba(99, 102, 241, 0.15);
+  --color-surface-card: #15151a;
+  --color-surface-alt: #0c0c10;
+  --color-border-subtle: rgba(255, 255, 255, 0.07);
+  --color-border-glow: rgba(129, 140, 248, 0.2);
   --color-text-primary: #fafafa;
-  --color-text-secondary: #a1a1aa;
-  --color-text-muted: #52525b;
+  --color-text-secondary: #b0b0be;
+  --color-text-muted: #63637a;
   --color-accent: #818cf8;
   --color-accent-bright: #6366f1;
 }

@@ -23,29 +23,29 @@ const items = [
 
 export function WhatIBuild() {
   return (
-    <section id="work" className="py-32 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section id="work" className="py-24 md:py-32 px-6 bg-surface-alt">
+      <div className="max-w-5xl mx-auto">
         <FadeIn>
-          <span className="text-accent text-sm font-medium tracking-widest uppercase mb-4 block">
+          <span className="text-accent text-xs font-medium tracking-[0.2em] uppercase mb-4 block">
             What I Build
           </span>
         </FadeIn>
         <FadeIn delay={0.1}>
-          <h2 className="text-3xl md:text-5xl font-bold text-text-primary tracking-tight mb-16 max-w-2xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-text-primary tracking-tight mb-14 max-w-xl">
             Engineering for the edge cases
           </h2>
         </FadeIn>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-5">
           {items.map((item, i) => (
-            <FadeIn key={item.title} delay={0.1 + i * 0.1}>
-              <div className="group relative bg-surface-card border border-border-subtle rounded-2xl p-8 hover:border-border-glow transition-all duration-300">
-                <div className="absolute inset-0 bg-gradient-to-br from-accent/[0.02] to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <FadeIn key={item.title} delay={0.1 + i * 0.08}>
+              <div className="group relative bg-surface-card border border-border-subtle rounded-xl p-7 hover:border-border-glow transition-all duration-300">
+                <div className="absolute inset-0 bg-gradient-to-br from-accent/[0.02] to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="relative">
-                  <h3 className="text-xl font-semibold text-text-primary mb-2">
+                  <h3 className="text-base font-semibold text-text-primary mb-1.5">
                     {item.title}
                   </h3>
-                  <p className="text-text-secondary leading-relaxed">
+                  <p className="text-sm text-text-secondary leading-relaxed">
                     {item.description}
                   </p>
                 </div>

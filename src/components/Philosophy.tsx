@@ -31,27 +31,27 @@ const principles = [
 
 export function Philosophy() {
   return (
-    <section className="py-32 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-24 md:py-32 px-6 bg-surface-alt">
+      <div className="max-w-5xl mx-auto">
         <FadeIn>
-          <span className="text-accent text-sm font-medium tracking-widest uppercase mb-4 block">
+          <span className="text-accent text-xs font-medium tracking-[0.2em] uppercase mb-4 block">
             Philosophy
           </span>
         </FadeIn>
         <FadeIn delay={0.1}>
-          <h2 className="text-3xl md:text-5xl font-bold text-text-primary tracking-tight mb-16 max-w-2xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-text-primary tracking-tight mb-14 max-w-xl">
             How I think about engineering
           </h2>
         </FadeIn>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-4">
           {principles.map((principle, i) => (
-            <FadeIn key={principle.acronym} delay={0.1 + i * 0.1}>
-              <div className="group bg-surface-card border border-border-subtle rounded-2xl p-8 hover:border-border-glow transition-all duration-300">
-                <span className="text-accent font-mono text-sm font-medium tracking-wider block mb-3">
+            <FadeIn key={principle.acronym} delay={0.1 + i * 0.08}>
+              <div className="group bg-surface-card border border-border-subtle rounded-xl p-6 hover:border-border-glow transition-all duration-300">
+                <span className="text-accent/70 font-mono text-xs font-medium tracking-wider block mb-2">
                   {principle.acronym}
                 </span>
-                <h3 className="text-lg font-semibold text-text-primary mb-2">
+                <h3 className="text-base font-semibold text-text-primary mb-1.5">
                   {principle.title}
                 </h3>
                 <p className="text-sm text-text-secondary leading-relaxed">

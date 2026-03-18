@@ -37,42 +37,42 @@ const companies = [
 
 export function Experience() {
   return (
-    <section id="experience" className="py-32 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section id="experience" className="py-24 md:py-32 px-6">
+      <div className="max-w-5xl mx-auto">
         <FadeIn>
-          <span className="text-accent text-sm font-medium tracking-widest uppercase mb-4 block">
+          <span className="text-accent text-xs font-medium tracking-[0.2em] uppercase mb-4 block">
             Experience
           </span>
         </FadeIn>
         <FadeIn delay={0.1}>
-          <h2 className="text-3xl md:text-5xl font-bold text-text-primary tracking-tight mb-16 max-w-2xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-text-primary tracking-tight mb-14 max-w-xl">
             Where I&rsquo;ve built things
           </h2>
         </FadeIn>
 
-        <div className="space-y-8">
+        <div className="space-y-5">
           {companies.map((company, i) => (
-            <FadeIn key={company.name} delay={0.1 + i * 0.1}>
-              <div className="group bg-surface-card border border-border-subtle rounded-2xl p-8 md:p-10 hover:border-border-glow transition-all duration-300">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
-                  <h3 className="text-2xl font-bold text-text-primary group-hover:text-accent transition-colors">
+            <FadeIn key={company.name} delay={0.1 + i * 0.08}>
+              <div className="group bg-surface-card border border-border-subtle rounded-xl p-7 md:p-8 hover:border-border-glow transition-all duration-300">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-5">
+                  <h3 className="text-lg font-bold text-text-primary group-hover:text-accent transition-colors">
                     {company.name}
                   </h3>
-                  <span className="text-sm text-text-muted mt-1 md:mt-0">
+                  <span className="text-xs text-text-muted mt-1 md:mt-0">
                     {company.role}
                   </span>
                 </div>
-                <ul className="space-y-3">
+                <ul className="space-y-2.5">
                   {company.achievements.map((achievement, j) => (
-                    <li key={j} className="flex items-start gap-3">
-                      <span className="text-accent mt-1.5 flex-shrink-0">
+                    <li key={j} className="flex items-start gap-2.5">
+                      <span className="text-accent/60 mt-[7px] flex-shrink-0">
                         <svg
-                          width="6"
-                          height="6"
-                          viewBox="0 0 6 6"
+                          width="4"
+                          height="4"
+                          viewBox="0 0 4 4"
                           fill="currentColor"
                         >
-                          <circle cx="3" cy="3" r="3" />
+                          <circle cx="2" cy="2" r="2" />
                         </svg>
                       </span>
                       <span className="text-sm text-text-secondary leading-relaxed">

@@ -32,19 +32,19 @@ export function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
+      <div className="max-w-5xl mx-auto px-6 flex items-center justify-between h-14">
         <a
           href="#"
-          className="text-text-primary font-semibold text-lg tracking-tight hover:text-accent transition-colors"
+          className="text-text-primary font-semibold text-sm tracking-tight hover:text-accent transition-colors"
         >
           AC
         </a>
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-7">
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-sm text-text-secondary hover:text-text-primary transition-colors"
+              className="text-xs text-text-muted hover:text-text-primary transition-colors"
             >
               {link.label}
             </a>
@@ -79,13 +79,13 @@ export function Navbar() {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden bg-surface/95 backdrop-blur-xl border-b border-border-subtle overflow-hidden"
           >
-            <div className="px-6 py-4 flex flex-col gap-4">
+            <div className="px-6 py-4 flex flex-col gap-3">
               {navLinks.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="text-sm text-text-secondary hover:text-text-primary transition-colors"
+                  className="text-xs text-text-muted hover:text-text-primary transition-colors"
                 >
                   {link.label}
                 </a>

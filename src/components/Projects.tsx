@@ -48,34 +48,34 @@ const projects = [
 
 export function Projects() {
   return (
-    <section id="projects" className="py-32 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section id="projects" className="py-24 md:py-32 px-6 bg-surface-alt">
+      <div className="max-w-5xl mx-auto">
         <FadeIn>
-          <span className="text-accent text-sm font-medium tracking-widest uppercase mb-4 block">
+          <span className="text-accent text-xs font-medium tracking-[0.2em] uppercase mb-4 block">
             Projects
           </span>
         </FadeIn>
         <FadeIn delay={0.1}>
-          <h2 className="text-3xl md:text-5xl font-bold text-text-primary tracking-tight mb-16 max-w-2xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-text-primary tracking-tight mb-14 max-w-xl">
             Systems built for the real world
           </h2>
         </FadeIn>
 
-        <div className="space-y-8">
+        <div className="space-y-5">
           {projects.map((project, i) => (
-            <FadeIn key={project.title} delay={0.1 + i * 0.1}>
+            <FadeIn key={project.title} delay={0.1 + i * 0.08}>
               <motion.div
                 whileHover={{ y: -2 }}
                 transition={{ duration: 0.2 }}
-                className="group bg-surface-card border border-border-subtle rounded-2xl p-8 md:p-10 hover:border-border-glow transition-all duration-300"
+                className="group bg-surface-card border border-border-subtle rounded-xl p-7 md:p-8 hover:border-border-glow transition-all duration-300"
               >
-                <h3 className="text-xl md:text-2xl font-bold text-text-primary mb-8 group-hover:text-accent transition-colors">
+                <h3 className="text-lg md:text-xl font-bold text-text-primary mb-6 group-hover:text-accent transition-colors">
                   {project.title}
                 </h3>
 
-                <div className="grid md:grid-cols-3 gap-8 mb-8">
+                <div className="grid md:grid-cols-3 gap-6 mb-6">
                   <div>
-                    <span className="text-xs font-medium text-text-muted uppercase tracking-wider block mb-2">
+                    <span className="text-[11px] font-medium text-text-muted uppercase tracking-wider block mb-1.5">
                       Problem
                     </span>
                     <p className="text-sm text-text-secondary leading-relaxed">
@@ -83,7 +83,7 @@ export function Projects() {
                     </p>
                   </div>
                   <div>
-                    <span className="text-xs font-medium text-text-muted uppercase tracking-wider block mb-2">
+                    <span className="text-[11px] font-medium text-text-muted uppercase tracking-wider block mb-1.5">
                       Solution
                     </span>
                     <p className="text-sm text-text-secondary leading-relaxed">
@@ -91,7 +91,7 @@ export function Projects() {
                     </p>
                   </div>
                   <div>
-                    <span className="text-xs font-medium text-text-muted uppercase tracking-wider block mb-2">
+                    <span className="text-[11px] font-medium text-text-muted uppercase tracking-wider block mb-1.5">
                       Impact
                     </span>
                     <p className="text-sm text-text-secondary leading-relaxed">
@@ -100,11 +100,11 @@ export function Projects() {
                   </div>
                 </div>
 
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-1.5">
                   {project.stack.map((tech) => (
                     <span
                       key={tech}
-                      className="text-xs text-text-muted bg-surface-elevated px-3 py-1 rounded-full"
+                      className="text-[11px] text-text-muted bg-surface-elevated px-2.5 py-0.5 rounded-full"
                     >
                       {tech}
                     </span>
