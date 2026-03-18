@@ -95,11 +95,6 @@ JavaScript inspired programming language with Marathi syntax.
 
 ### 📱 React Native Performance Insights
 
-Performance analysis tools for React Native apps.
-
-### 🔵 React Native BLE Toolkit
-
-BLE utilities for cross-platform IoT applications.
 
 ---
 
