@@ -1,13 +1,15 @@
 <div align="center">
 
-# AMOL CHAVAN
+# AMOL CHAVAN <br/>
 
-### Senior Software Engineer · Mobile & Web Architecture
+
+### Senior Software Engineer | Mobile & Web Architecture <br/>
+
 
 **Building reliable mobile, web & connected experiences**
 
 <p>
-  <a href="https://yuyutsu.github.io">Portfolio</a> ·
+  <a href="https://yuyutsu.github.io">GitHub</a> ·
   <a href="https://www.linkedin.com/in/iamolchavan/">LinkedIn</a> ·
   <a href="https://www.npmjs.com/~iamolchavan">npm</a> ·
   <a href="https://medium.com/@iamolchavan">Medium</a>
