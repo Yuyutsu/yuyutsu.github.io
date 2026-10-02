@@ -4,10 +4,10 @@
 
 ### Senior Software Engineer · Mobile & Web Architecture
 
-**13+ years of building mobile, web, and connected-device experiences**
+**Building reliable mobile, web & connected experiences**
 
 <p>
-  <a href="https://github.com/yuyutsu">GitHub</a> ·
+  <a href="https://yuyutsu.github.io">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/iamolchavan/">LinkedIn</a> ·
   <a href="https://www.npmjs.com/~iamolchavan">npm</a> ·
   <a href="https://medium.com/@iamolchavan">Medium</a>
@@ -19,85 +19,151 @@
 
 ## 👋 About Me
 
-I’m a **Senior Software Engineer** with 13+ years of experience building production-grade applications across **Industrial IoT, Healthcare, Life Sciences, Mobile, and Web**.
+I’m a **Senior Software Engineer with 13+ years of experience** building production applications across **Mobile, Web, Healthcare, Life Sciences, and Industrial IoT**.
 
-My primary focus is **React Native, ReactJS, TypeScript, iOS, Android, and application architecture**.
+My core focus is **React Native, ReactJS, TypeScript, iOS, Android, and application architecture**.
 
-I enjoy solving engineering problems where architecture, performance, reliability, developer experience, testing, and maintainability matter.
+I enjoy solving engineering problems around:
 
-Beyond product development, I enjoy creating **reusable libraries, developer tools, technical experiments, and open-source projects**.
+**Architecture · Performance · Reliability · Testing · CI/CD · Developer Experience**
 
----
-
-## ⚡ What I Do
-
-```text
-Mobile Engineering       React Native · iOS · Android
-Web Engineering          ReactJS · TypeScript · JavaScript
-Architecture             Mobile · Frontend · Modular Systems
-Connected Experiences    BLE · CoreBluetooth · CoreLocation · iBeacon
-Healthcare               HealthKit · Healthcare Applications
-Engineering Quality      Testing · Reliability · Diagnostics
-Delivery                 CI/CD · Release Automation · Production Support
-Leadership               Mentoring · Code Reviews · Technical Guidance
-```
+I also enjoy building **open-source libraries, developer tools, technical experiments, and products outside of my day-to-day work.**
 
 ---
 
-## 🚀 Engineering Impact
+## 🧩 What I Build
 
-Some examples of the problems I work on:
+<table>
+<tr>
+<td width="50%">
 
-- Own **end-to-end application delivery**, from requirements and development through testing and production release.
-- Build **maintainable and reusable application architecture** across mobile and web platforms.
-- Improve React application performance through **reusable components, render optimization, code splitting, and dynamic imports**.
-- Establish **automated testing and quality practices** to improve confidence in production releases.
-- Design and maintain **CI/CD and release workflows** supporting multiple environments and application variants.
-- Investigate production issues using **Firebase Crashlytics, Xcode, Android Studio, and application diagnostics**.
-- Contribute to **technical hiring and engineering assessments** across React and React Native, Android, iOS.
-- Provide **technical mentorship and guidance to engineers across experience levels**, including code reviews, knowledge sharing, and development support.
-- Collaborate with Product, QA, and engineering teams to translate requirements into **practical technical solutions**.
+### 📱 Mobile Engineering
+
+React Native, iOS, Android and connected mobile experiences.
+
+</td>
+<td width="50%">
+
+### 🌐 Web Engineering
+
+ReactJS, TypeScript and scalable frontend applications.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+### 🏗️ Architecture
+
+Mobile architecture, frontend architecture, modular design and reusable systems.
+
+</td>
+<td>
+
+### 🔌 Connected Experiences
+
+BLE, CoreBluetooth, CoreLocation, iBeacon and connected devices.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+### 🧪 Engineering Quality
+
+Testing, diagnostics, reliability, performance and production readiness.
+
+</td>
+<td>
+
+### 👨‍🏫 Technical Leadership
+
+Mentoring, code reviews, technical guidance, feasibility and engineering decisions.
+
+</td>
+</tr>
+</table>
 
 ---
 
-# 🧩 Selected Work
+# 🚀 Engineering Impact
 
-### Smart Filtration
+Some of the engineering problems I work on:
+
+- Own **end-to-end application delivery**, from requirements through production release.
+- Design **maintainable and reusable mobile and web architecture**.
+- Improve React performance through **reusable components, render optimization, code splitting and dynamic imports**.
+- Establish **automated testing and quality practices** for production applications.
+- Build and maintain **CI/CD and release workflows** across multiple environments.
+- Investigate production issues using **Firebase Crashlytics, Xcode, Android Studio and application diagnostics**.
+- Contribute to **technical hiring and engineering assessments** across React and React Native.
+- Provide **technical mentorship and guidance across different experience levels**.
+- Work closely with Product, QA and engineering teams to convert requirements into **practical technical solutions**.
+
+---
+
+# 🧠 Selected Work
+
+### 🏭 Smart Filtration
+
 **Eaton · Industrial IoT · Web & Mobile**
 
-End-to-end ownership of mobile and web application delivery, including feature development, automated testing, CI/CD, and React performance optimization.
+End-to-end mobile and web application delivery with feature ownership, automated testing, CI/CD and React performance optimization.
 
-### Safety Check
+---
+
+### 🛡️ Safety Check
+
 **Eaton · Industrial IoT · Web & Mobile**
 
-Safety-focused application involving admin capabilities, API integrations, CI/CD, environment-specific variants, production diagnostics, and release readiness.
+Safety-focused application involving admin capabilities, API integrations, CI/CD, environment-specific variants, production diagnostics and release readiness.
 
-### MyBSWHealth
+---
+
+### 🏥 MyBSWHealth
+
 **Atos Syntel · React Native · iOS / Android · Healthcare**
 
-Healthcare platform for Baylor Scott & White patients to manage appointments, view test results, communicate with physicians, and pay bills from one centralized application.
+Healthcare platform for Baylor Scott & White patients to manage appointments, view test results, communicate with physicians and pay bills through a centralized application.
 
-### connectRN
+---
+
+### 👩‍⚕️ connectRN
+
 **Venturit · React Native · iOS / Android · Healthcare**
 
 Healthcare staffing platform connecting nurses with healthcare facilities and flexible work opportunities.
 
-### Avidhrt Sense
+---
+
+### ❤️ Avidhrt Sense
+
 **Venturit · iOS · Healthcare · Connected Device**
 
-Connected healthcare application for capturing ECG/EKG, SpO2, and temperature readings and sharing health data with clinicians.
+Connected healthcare application for capturing ECG/EKG, SpO2 and temperature readings and sharing health data with clinicians.
 
-### Shreemant Dagadushet App
+---
+
+### 🛕 Shreemant Dagadushet App
+
 **In2things Automation · iOS · Temple & Devotional**
 
-Digital platform for Pune’s Dagadusheth Ganpati Temple supporting Aarti and Prasad booking, donations, devotional audio, and Vedic streaming.
+Digital platform for Pune’s Dagadusheth Ganpati Temple supporting Aarti and Prasad booking, donations, devotional audio and Vedic streaming.
 
-### Wittybee
+---
+
+### 💬 Wittybee
+
 **Wittybee Technologies · iOS · Collaboration**
 
-Team collaboration platform designed to help teams communicate, coordinate work, and collaborate in one place.
+Team collaboration platform designed to help teams communicate, coordinate work and collaborate in one place.
 
-### Kairos Watch
+---
+
+### ⌚ Kairos Watch
+
 **Wittybee Technologies · iOS · Smartwatch · IoT**
 
 Companion mobile application connecting a hybrid mechanical smartwatch with its mobile experience.
@@ -117,15 +183,19 @@ My published packages focus on areas such as:
 - Calendar utilities
 - Expense utilities
 
-📦 **Explore my npm packages**
+### 📦 npm
 
-https://www.npmjs.com/~iamolchavan
+<a href="https://www.npmjs.com/~iamolchavan">
+
+<img src="https://img.shields.io/badge/View%20my%20npm%20packages-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
+
+</a>
 
 ---
 
 # 🧪 MarathiLipi
 
-### TypeScript, but written with Marathi syntax.
+## TypeScript, but written with Marathi syntax.
 
 **MarathiLipi** is an experimental programming language project exploring how TypeScript concepts can be expressed using Marathi-inspired syntax.
 
@@ -138,90 +208,7 @@ The project explores:
 - Documentation
 - Interactive playground concepts
 
-🌐 https://marathilipi.js.org/
-
----
-
-# 🔬 Engineering Tools & Experiments
-
-I’m particularly interested in building tools that help engineers **understand, maintain, and improve large codebases**.
-
-Areas I’m exploring include:
-
-```text
-React Native Upgrade Intelligence
-             ↓
-Project Health Analysis
-             ↓
-Code Complexity
-             ↓
-Dead Code Detection
-             ↓
-Dependency Health
-             ↓
-Build Health
-             ↓
-Architecture Signals
-             ↓
-Actionable Engineering Reports
-```
-
-The goal:
-
-> **Turn a complex codebase into something engineers can understand, measure, and improve.**
-
----
-
-# 🧠 Engineering Philosophy
-
-### Keep it simple.
-
-Good engineering does not mean adding more layers, abstractions, or patterns.
-
-It means solving the problem with the **right amount of complexity**.
-
-### Build for the next engineer.
-
-Code should be understandable, maintainable, testable, and easy to change.
-
-### Architecture should solve problems.
-
-A good architecture is not defined by how sophisticated it looks.
-
-It is defined by how effectively it handles **change, scale, reliability, and maintainability**.
-
-### Automate confidence.
-
-Testing, CI/CD, diagnostics, and observability should reduce uncertainty around production software.
-
-### Reuse with purpose.
-
-Reusable code is valuable when it genuinely reduces duplication and makes systems easier to evolve.
-
----
-
-# 👨‍🏫 Technical Leadership
-
-I enjoy contributing beyond individual feature development.
-
-My technical leadership work includes:
-
-- Technical mentoring
-- Architecture discussions
-- Code reviews
-- Requirement analysis
-- Feasibility studies
-- Technical interviews
-- Engineering assessments
-- Knowledge sharing
-- Engineering standards
-- Developer onboarding
-- Agile collaboration
-- Stakeholder technical discussions
-
-I believe technical leadership is not about having all the answers.
-
-It is about helping teams **ask better questions, understand trade-offs, and make better engineering decisions**.
+🌐 **[marathilipi.js.org](https://marathilipi.js.org/)**
 
 ---
 
@@ -233,15 +220,39 @@ I use AI as an **engineering productivity tool** to accelerate:
 - Test creation
 - Documentation
 - Refactoring
-- Exploration of technical approaches
+- Technical exploration
 
-The final responsibility remains with the engineer:
+The engineering process remains:
 
-**review → debug → validate → test → ship**
+**Review → Debug → Validate → Test → Ship**
 
 AI can accelerate development.
 
-**Engineering judgment still decides what should be built and whether it is correct.**
+**Engineering judgment decides what should be built and whether it is correct.**
+
+---
+
+# 👨‍🏫 Technical Leadership
+
+I enjoy contributing beyond individual feature development.
+
+My leadership experience includes:
+
+- Technical mentoring
+- Architecture discussions
+- Code reviews
+- Requirement analysis
+- Feasibility studies
+- Technical interviews
+- Engineering assessments
+- Knowledge sharing
+- Developer onboarding
+- Agile collaboration
+- Stakeholder technical discussions
+
+> **Technical leadership is not about having all the answers.**
+>
+> **It is about helping teams ask better questions and make better engineering decisions.**
 
 ---
 
@@ -265,46 +276,13 @@ I write about things I learn while building software.
 
 Topics include:
 
-- React Native
-- Mobile Architecture
-- Performance
-- Offline-first applications
-- Testing
-- Developer productivity
-- Engineering practices
-- UI architecture
+**React Native · Architecture · Performance · Offline-first · Testing · Developer Productivity · UI Engineering**
 
-📝 https://medium.com/@iamolchavan
+📝 **[Read my articles on Medium](https://medium.com/@iamolchavan)**
 
 ---
 
-# 📦 npm
-
-<div align="center">
-
-<a href="https://www.npmjs.com/~iamolchavan">
-
-<img src="https://img.shields.io/badge/npm-Published%20Packages-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
-
-</a>
-
-</div>
-
----
-
-# 🤝 Let's Connect
-
-If you're working on:
-
-- Mobile architecture
-- React Native
-- Developer tooling
-- IoT applications
-- Healthcare technology
-- Engineering productivity
-- Open-source projects
-
-I'd be happy to connect and exchange ideas.
+# 📫 Connect
 
 <div align="center">
 
@@ -316,15 +294,19 @@ I'd be happy to connect and exchange ideas.
 <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
+<a href="https://www.npmjs.com/~iamolchavan">
+<img src="https://img.shields.io/badge/npm-Packages-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
+</a>
+
 </div>
 
 ---
 
 <div align="center">
 
-### Build. Learn. Simplify. Share.
+### Build · Learn · Simplify · Share
 
-*Engineering is not just about writing code.*  
-*It’s about solving the right problem well.*
+**Engineering is not just about writing code.  
+It’s about solving the right problem well.**
 
 </div>
