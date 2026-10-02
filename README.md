@@ -1,19 +1,12 @@
 <div align="center">
 
-# AMOL CHAVAN <br/>
+# AMOL CHAVAN
 
-
-### Senior Software Engineer | Mobile & Web Architecture <br/>
-
+### Senior Software Engineer | Mobile & Web Architecture
 
 **Building reliable mobile, web & connected experiences**
 
-<p>
-  <a href="https://yuyutsu.github.io">GitHub</a> ·
-  <a href="https://www.linkedin.com/in/iamolchavan/">LinkedIn</a> ·
-  <a href="https://www.npmjs.com/~iamolchavan">npm</a> ·
-  <a href="https://medium.com/@iamolchavan">Medium</a>
-</p>
+[Portfolio](https://yuyutsu.github.io/) · [LinkedIn](https://www.linkedin.com/in/iamolchavan/) · [GitHub](https://github.com/yuyutsu) · [npm](https://www.npmjs.com/~iamolchavan) · [Medium](https://medium.com/@iamolchavan)
 
 </div>
 
@@ -35,58 +28,14 @@ I also enjoy building **open-source libraries, developer tools, technical experi
 
 ## 🧩 What I Build
 
-<table>
-<tr>
-<td width="50%">
-
-### 📱 Mobile Engineering
-
-React Native, iOS, Android and connected mobile experiences.
-
-</td>
-<td width="50%">
-
-### 🌐 Web Engineering
-
-ReactJS, TypeScript and scalable frontend applications.
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-### 🏗️ Architecture
-
-Mobile architecture, frontend architecture, modular design and reusable systems.
-
-</td>
-<td>
-
-### 🔌 Connected Experiences
-
-BLE, CoreBluetooth, CoreLocation, iBeacon and connected devices.
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-### 🧪 Engineering Quality
-
-Testing, diagnostics, reliability, performance and production readiness.
-
-</td>
-<td>
-
-### 👨‍🏫 Technical Leadership
-
-Mentoring, code reviews, technical guidance, feasibility and engineering decisions.
-
-</td>
-</tr>
-</table>
+| | |
+|---|---|
+| 📱 **Mobile Engineering** | React Native, iOS, Android and connected mobile experiences. |
+| 🌐 **Web Engineering** | ReactJS, TypeScript and scalable frontend applications. |
+| 🏗️ **Architecture** | Mobile architecture, frontend architecture, modular design and reusable systems. |
+| 🔌 **Connected Experiences** | BLE, CoreBluetooth, CoreLocation, iBeacon and connected devices. |
+| 🧪 **Engineering Quality** | Testing, diagnostics, reliability, performance and production readiness. |
+| 👨‍🏫 **Technical Leadership** | Mentoring, code reviews, technical guidance, feasibility and engineering decisions. |
 
 ---
 
@@ -187,11 +136,7 @@ My published packages focus on areas such as:
 
 ### 📦 npm
 
-<a href="https://www.npmjs.com/~iamolchavan">
-
-<img src="https://img.shields.io/badge/View%20my%20npm%20packages-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
-
-</a>
+[![npm Packages](https://img.shields.io/badge/View%20my%20npm%20packages-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~iamolchavan)
 
 ---
 
@@ -262,11 +207,11 @@ My leadership experience includes:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=yuyutsu&show_icons=true&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=yuyutsu&show_icons=true&hide_border=true" alt="Amol Chavan GitHub Stats" />
 
-<br/>
+<br />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yuyutsu&hide_border=true" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=yuyutsu&hide_border=true" alt="Amol Chavan GitHub Streak" />
 
 </div>
 
@@ -288,17 +233,11 @@ Topics include:
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/iamolchavan/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iamolchavan/)
 
-<a href="https://github.com/yuyutsu">
-<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yuyutsu)
 
-<a href="https://www.npmjs.com/~iamolchavan">
-<img src="https://img.shields.io/badge/npm-Packages-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
-</a>
+[![npm](https://img.shields.io/badge/npm-Packages-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~iamolchavan)
 
 </div>
 
