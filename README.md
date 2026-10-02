@@ -1,14 +1,16 @@
-<div align="center">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=200&section=header&text=Amol%20Chavan&fontSize=40&fontColor=ffffff"/>
+</p>
 
-# AMOL CHAVAN
+# 👋 Hello, I'm Amol
+
 
 ### Senior Software Engineer | Mobile & Web Architecture
 
 **Building reliable mobile, web & connected experiences**
 
-[Portfolio](https://yuyutsu.github.io/) · [LinkedIn](https://www.linkedin.com/in/iamolchavan/) · [GitHub](https://github.com/yuyutsu) · [npm](https://www.npmjs.com/~iamolchavan) · [Medium](https://medium.com/@iamolchavan)
+[Portfolio](https://yuyutsu.github.io/) [LinkedIn](https://www.linkedin.com/in/iamolchavan/) · [GitHub](https://github.com/yuyutsu) · [npm](https://www.npmjs.com/~iamolchavan) · [Medium](https://medium.com/@iamolchavan)
 
-</div>
 
 ---
 
@@ -231,15 +233,12 @@ Topics include:
 
 # 📫 Connect
 
-<div align="center">
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iamolchavan/)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yuyutsu)
 
 [![npm](https://img.shields.io/badge/npm-Packages-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~iamolchavan)
 
-</div>
 
 ---
 
