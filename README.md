@@ -242,11 +242,10 @@ Topics include:
 
 ---
 
-<div align="center">
+
 
 ### Build · Learn · Simplify · Share
 
 **Engineering is not just about writing code.  
 It’s about solving the right problem well.**
 
-</div>
